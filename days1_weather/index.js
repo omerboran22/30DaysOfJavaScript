@@ -1,4 +1,4 @@
-const API_KEY = '35a26e6d0b6e0f773ce7241121f8720b';
+const API_KEY =1;
 const apiUrl = new URL(`https://api.openweathermap.org/data/2.5/weather?appid=${API_KEY}&units=metric`);
 
 const cardHeader = document.querySelector('.weather .card-header');
