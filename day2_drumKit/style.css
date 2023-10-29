@@ -1,0 +1,60 @@
+@import url('https://fonts.cdnfonts.com/css/arvo');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body,html{
+  background: #19172e;
+  user-select: none;    
+  font-size: 10px;
+  font-family: 'sans';
+}
+
+h1{
+  color: white;
+  font-size:5.5rem ;
+  text-align: center;
+  font-family: "Arvo", cursive;
+}
+
+span {
+  font-weight: 100;
+}
+
+kbd{
+  display: block;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.keys{
+  display: flex;
+  flex: 1;
+  min-height: 40vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.key{
+  border: 0.4rem solid white;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background-color: #212121;
+}
+
+.sound {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #bb86fc;
+}
